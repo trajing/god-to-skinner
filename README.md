@@ -6,18 +6,24 @@ Idea shamelessly ~stolen~ borrowed from the ol' cloud-to-butt community
 
 ## Installing
 
-Head on over to the releases section of the github and download the relevant extension file for your browser (currently,
-Chrome and Firefox are supported). Then, follow the browser-specific instructions below:
-
 ### Firefox
- 1. Open up Firefox
- 2. Go to the addons manager, by pressing `Ctrl-Shift-A` or selecting it from the drop-down menu in the top right.
- 3. Click on the gear dropdown in the top right.
- 4. Select "Install Add-on From File"
- 5. Select the downloaded extension file in the file selection popup.
+ 1. Go to [the releases page](/releases) and select the file labelled "firefox" (it should have a .xpi extension)
+ 2. Instead of normally downloading, firefox should prompt you to install the extension
 
 ### Chrome
-TODO
+ 1. Go to [the releases page](/releases) and download the source code
+ 2. Extract the source code into its own folder
+ 3. Open up chrome
+ 4. Go to the extensions page (`chrome://extensions`)
+ 5. Enable Developer Mode by toggling the switch in the top right
+ 6. Select "Load Unpacked"
+ 7. In the selection pop-up, navigate to where you unpacked the source code and select the "src" subdirectory
+ 8. You can turn off Developer Mode after this, but Chrome may complain.
+
+#### Why is this so complicated on Chrome?
+Because ~Google is bad~ Google does not seem to easily support self-hosting packed CRX files and would instead prefer
+going through the Chrome store. To circumvent this, you can simply install the extension as an unpacked folder, as a
+developer normally would while testing.
 
 ## Building
 TODO
