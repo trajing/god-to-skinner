@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "God to Skinner",
+  "version": "0.2",
+  "description": "Replaces occurences of the word 'God' and words derived from it with 'Dr. Skinner' and appropriate derivatives.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["godtoskinner.js"]
+    }
+  ]
+}

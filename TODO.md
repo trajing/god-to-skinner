@@ -1,0 +1,1 @@
+ - make extension work with non-hyphenated versions of words derived from god (e.g. godforsaken, goddamned, etc)
