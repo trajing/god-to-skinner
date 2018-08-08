@@ -7,11 +7,12 @@ Idea shamelessly ~stolen~ borrowed from the ol' cloud-to-butt community
 ## Installing
 
 ### Firefox
- 1. Go to [the releases page](/releases) and select the file labelled "firefox" (it should have a .xpi extension)
+ 1. Go to [the releases page](https://github.com/trajing/god-to-skinner/releases) and select the file labelled "firefox"
+    (it should have a .xpi extension)
  2. Instead of normally downloading, firefox should prompt you to install the extension
 
 ### Chrome
- 1. Go to [the releases page](/releases) and download the source code
+ 1. Go to [the releases page](https://github.com/trajing/god-to-skinner/releases) and download the source code
  2. Extract the source code into its own folder
  3. Open up chrome
  4. Go to the extensions page (`chrome://extensions`)
